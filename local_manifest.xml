@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+				
+        <remote name="sarthakroy2002"
+                fetch="https://github.com/sarthakroy2002" />				
+
+        <project path="device/realme/RMX2050" name="device_realme_RMX2050" remote="sarthakroy2002" revision="11.0" clone-depth="1" />
+        <project path="vendor/oppo/RMX2050" name="vendor_oppo_RMX2050" remote="sarthakroy2002" revision="11.0" clone-depth="1" />
+		
+</manifest>
