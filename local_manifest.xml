@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-				
-        <remote name="realme"
-                fetch="https://github.com/realme-RMX2170" />				
 
-        <project path="device/realme/RMX2170" name="device_realme_RMX2170" remote="realme" revision="eleven" clone-depth="1" />
-        <project path="vendor/realme/RMX2170" name="vendor_realme_RMX2170" remote="realme" revision="eleven" clone-depth="1" />
-		<project path="hardware/oplus" name="hardware_oplus" remote="realme" revision="eleven" clone-depth="1" />
-		
+        <remote name="sribalaji"
+                fetch="https://gitlab.com/sribalaji" />
+
+        <project path="device/realme/RMX2001" name="device_realme_RMX2001" remote="sribalaji" revision="crdroid" clone-depth="1" />
+        <project path="vendor/realme/RMX2001" name="vendor_realme_RMX2001" remote="sribalaji" revision="main" clone-depth="1" />
+        <project path="packages/apps/RealmeParts" name="RealmeParts" remote="sribalaji" revision="master" clone-depth="1" />
+
 </manifest>
