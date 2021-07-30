@@ -1,4 +1,4 @@
-# Local Manifests for Realme Narzo 20A #
+# Local Manifests for Realme 6 Series #
 
 ### Android 11 R based trees ###
 
