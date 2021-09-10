@@ -8,7 +8,7 @@
         <project path="vendor/realme/RMX2001" name="vendor_realme_RMX2001" remote="sribalaji" revision="main" clone-depth="1" />
         <project path="packages/apps/RealmeParts" name="RealmeParts" remote="sribalaji" revision="master" clone-depth="1" />
         
-           <remote name="samar"
+        <remote name="samar"
                 fetch="https://github.com/samarV-121/" />
         
         <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="samar" revision="lineage-18.1" clone-depth="1" />
