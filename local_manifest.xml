@@ -4,7 +4,7 @@
         <remote name="sribalaji"
                 fetch="https://gitlab.com/sribalaji" />
 
-        <project path="device/realme/RMX2001" name="device_realme_RMX2001" remote="sribalaji" revision="hyconos" clone-depth="1" />
+        <project path="device/realme/RMX2001" name="device_realme_RMX2001" remote="sribalaji" revision="aex" clone-depth="1" />
         <project path="device/realme/mt6785-common" name="device_realme_mt6785-common" remote="sribalaji" revision="hyconos" clone-depth="1" />
         <project path="vendor/realme" name="proprietary_vendor_realme" remote="sribalaji" revision="11" clone-depth="1" />
         <project path="packages/apps/RealmeParts" name="RealmeParts" remote="sribalaji" revision="master" clone-depth="1" />
