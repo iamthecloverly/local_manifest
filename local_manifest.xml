@@ -11,7 +11,11 @@
         
         <remote name="samar"
                 fetch="https://github.com/samarV-121/" />
-        
+        <remote name="patch"
+                fetch="https://github.com/Los-FE" />
+
+        <remove-project name="platform/external/selinux" />
+        <project path="external/selinux" name="android_external_selinux" remote="patch" revision="lineage-18.1" clone-depth="1" />
         <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="samar" revision="lineage-18.1" clone-depth="1" />
 
 </manifest>
