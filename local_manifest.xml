@@ -4,7 +4,7 @@
         <remote name="sribalaji"
                 fetch="https://github.com/iamthecloverly" />       
         
-        <project path="device/realme/RM6785" name="device_realme_RM6758" remote="sribalaji" revision="aosp" clone-depth="1" />
+        <project path="device/realme/RM6785" name="device_realme_RM6785" remote="sribalaji" revision="aosp" clone-depth="1" />
         <project path="vendor/realme" name="vendor_realme" remote="sribalaji" revision="lineage-19.0_staging" clone-depth="1" />
         <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="sribalaji" revision="lineage-19.0_staging" clone-depth="1" />
 	<project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="sribalaji" revision="android-12.0" clone-depth="1" />
