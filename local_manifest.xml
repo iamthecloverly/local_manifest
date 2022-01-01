@@ -3,7 +3,10 @@
 
         <remote name="sribalaji"
                 fetch="https://github.com/iamthecloverly" />  
-
+	<remote name="posp"
+                fetch="https://github.com/PotatoProject" />
+        
+	<project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="posp" revision="frico-release" clone-depth="1" />
         <project path="device/realme/RM6785" name="device_realme_RM6785" remote="sribalaji" revision="crdroid" clone-depth="1" />
         <project path="vendor/realme" name="vendor_realme" remote="sribalaji" revision="lineage-19.0_staging" clone-depth="1" />
         <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="sribalaji" revision="lineage-19.0_staging" clone-depth="1" />
