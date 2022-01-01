@@ -2,8 +2,11 @@
 <manifest>
 
         <remote name="sribalaji"
-                fetch="https://github.com/iamthecloverly" />       
+                fetch="https://github.com/iamthecloverly" />  
+	<remote name="pixel"
+                fetch="https://github.com/PixelExperience" />
         
+	<project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="eleven" clone-depth="1" />
         <project path="device/realme/RM6785" name="device_realme_RM6785" remote="sribalaji" revision="aosp" clone-depth="1" />
         <project path="vendor/realme" name="vendor_realme" remote="sribalaji" revision="lineage-19.0_staging" clone-depth="1" />
         <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" remote="sribalaji" revision="lineage-19.0_staging" clone-depth="1" />
